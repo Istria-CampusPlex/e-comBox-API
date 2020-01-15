@@ -1,0 +1,30 @@
+{
+  "name": "ecombox_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "composefile": "^0.3.0",
+    "docker-compose": "^0.23.1",
+    "dockerode": "^3.0.2",
+    "dotenv": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "json-stringify-safe": "^5.0.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "remote-exec": "0.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "simple-ssh": "^1.0.0",
+    "ssh-exec": "^2.0.0"
+  }
+}
